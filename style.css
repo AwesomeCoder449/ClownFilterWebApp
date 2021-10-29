@@ -1,0 +1,42 @@
+#myMarquee{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background-color: black;
+     font-size: 25px;
+}
+#hr{
+    width: 99%;
+    height: 1px;
+    background-color: red;
+}
+body{
+    text-align: center;
+    background-image: "";
+}
+#snapshot{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    background-color: red;
+    width: 40%;
+    border-radius: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#snapshot:hover{
+    color: red;
+    background-color: black;
+}
+canvas{
+    border-color: gold;
+    border-style: groove;
+    border-width: 5px;
+    animation-name: neon;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes neon{
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px yellow;}
+}
